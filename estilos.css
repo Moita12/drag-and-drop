@@ -1,0 +1,26 @@
+#espaço1,
+#espaço2,
+#espaço3,
+#espaço4,
+#espaço5,
+#espaço6 {
+  float: left;
+  width: 150px;
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.glober {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  border: 1px solid black;
+
+}
+
+body {
+  background-image: url(fundo.png), linear-gradient(45deg, rgb(244, 130, 130), rgb(233, 186, 115));
+  background-blend-mode: multiply;
+}
